@@ -5,6 +5,57 @@
         <link rel="stylesheet" href="restaurant.css">
     </head>
     <body>
+        <h1 class="app-header">Welcome to the Restaurant App</h1>
 
+        <div class="menu">
+            <div class="beverages">
+                <p>Beverages</p>
+                <form>
+                    <label for="soda"><input type="checkbox" id="soda">Soda ($3.30)</label>
+                    <label for="sweettea"><input type="checkbox" id="sweettea">Sweet Tea ($3.30)</label>
+                    <label for="icedtea"><input type="checkbox" id="icedtea">Iced Tea ($2.49)</label>
+                    <label for="bottledwater"><input type="checkbox" id="bottledwater">Bottled Water ($2.15)</label>
+                </form>
+            </div>
+
+            <div class="appetizers">
+                <p>Appetizers</p>
+                <form>
+                    <label for="nachos"><input type="checkbox" id="nachos">Nachos ($6.60)</label>
+                    <label for="chipssalsa"><input type="checkbox" id="chipssalsa">Chips & Salsa ($5.50)</label>
+                    <label for="pretzel"><input type="checkbox" id="pretzel">Pretzel with Cheese ($8.80)</label>
+                    <label for="pickles"><input type="checkbox" id="pickles">Fried Pickles ($8.35)</label>
+                </form>
+            </div>
+
+            <div class="main-courses">
+                <p>Main Courses</p>
+                <form>
+                    <label for=""><input type="checkbox" id="tacos">Street Tacos ($9.70)</label>
+                    <label for=""><input type="checkbox" id="wings">Boneless Wings ($12.80)</label>
+                    <label for=""><input type="checkbox" id="burger">Cheeseburger & Fries ($12.65)</label>
+                    <label for=""><input type="checkbox" id="wrap">Chicken Wrap with Salad ($9.65)</label>
+                </form>
+            </div>
+            
+            <div class="desserts">
+                <p>Desserts</p>
+                <form>
+                    <label for="icecream"><input type="checkbox" id="icecream">Ice Cream ($4.30)</label>
+                    <label for="chocolate"><input type="checkbox" id="chocolate">Chocolate Cake ($5.40)</label>
+                    <label for="pie"><input type="checkbox" id="pie">Apple Pie ($3.80)</label>
+                </form>
+            </div>
+
+        </div>
+
+        <li><a href="index.html"></a>Return</li>
+
+        <div class="order-summary">
+            <h3>Order Summary</h3>
+            <p>Your Order Total Is:</p>
+        </div>
+
+        <script>src="product.js"</script>
     </body>
 </html>
