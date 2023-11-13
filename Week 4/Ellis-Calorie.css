@@ -1,0 +1,73 @@
+h1{
+    text-align: center;
+}
+
+.search-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    background: #fff;
+    width: 600px;
+    height: 55px;
+    display: flex;
+}
+
+form input{
+    flex: 1;
+    border: solid 1px;
+    outline: none;
+}
+
+form button{
+    background: #453674;
+    padding: 10px 50px;
+    border: none;   
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+p{
+    text-align: center;
+    justify-content: center;
+}
+
+.searchResults{
+    text-align: center;
+    justify-content: center;
+}
+
+th{
+    background-color: #453674;
+    color: #fff;
+    border: #ddd;
+}
+
+th :hover{
+    background-color: #D6A800;
+    color: #4F3674;
+}
+
+td{
+    background-color: bisque;
+}
+
+.table{
+
+}
+
+.table th{
+    background-color: var(table);
+}
+
+.table td, th{
+
+}
+
+.results{
+    text-align: center;
+}
