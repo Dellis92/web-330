@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.main{
+    justify-content: center;
+    align-items: center;
+}
+
+.listing{
+    justify-content: center;
+    align-items: center;
+}
+
+select{
+    align-items: center;
+}
+
+button{
+    align-items: center;
+}
+
+#cart-message{
+    float: center;
+}
