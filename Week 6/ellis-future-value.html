@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-with, initial-scale=1">
+        <link rel="stylesheet" href="ellis-future-value.css">
+        <title>Future Value</title>
+    </head>
+        <h1>Welcome to the Future Value App</h1>
+
+       <p>Loan Amount: $<input id="amount" type="number" min="1" max="1000000" onchange="computeLoan()"></p>
+       <p>Interest Rate: <input id="interest_rate" type="number" min="0" max="100" value="10" step=".1" onchange="computeLoan()">%</p>
+       <p>Months: <input id="months" type="number" min="1" max="72" value="1" step="1" onchange="computeLoan()"></p>
+       <h2 id="payment"></h2>
+    
+        <script src="ellis-future-value.js"></script>
+    </body>
+</html>

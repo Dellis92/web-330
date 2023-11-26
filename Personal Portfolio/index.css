@@ -1,3 +1,7 @@
+*{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -33,18 +37,21 @@ h1{
     font-size: 80px;
     text-align: center;
     color: #2c2c2c;
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 h2{
     font-size: 20px;
     text-align: center;
     color: #2c2c2c; 
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 p{
     font-size: 30px;
     text-align: center;
     color: #2c2c2c;
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 header{
