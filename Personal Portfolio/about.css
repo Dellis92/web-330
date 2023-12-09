@@ -1,8 +1,13 @@
-div{
+*{
+    font-family: 'Bellota Text', sans-serif;
+}
+
+
+.gallery{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 }
 
 .gallery img{
@@ -10,20 +15,40 @@ div{
     height: 300px;
     border: 2px solid #5dc7ab;
     border-radius: 13px;
-    box-shadow: 4px 7px 7px 0px #00000042;
     cursor: pointer;
     margin: 10px;
     transition: 400ms;
 }
 
-.gallery img:hover{
+.gallery img:hover {
     filter: grayscale(1);
     transform: scale(1.03);
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    color: #fffafd;
+    font-family: 'Bellota Text', sans-serif;
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+    color: #fffafd; 
+    font-family: 'Bellota Text', sans-serif;
 }
 
 nav{
     display: flex;
     justify-content: space-around;
+    text-decoration: none;
+}
+
+header{
+    color:#fffafd;
+    font-family: 'Bellota Text', sans-serif;
+    text-decoration: none;
 }
 
 footer{
@@ -32,39 +57,14 @@ display: flex;
 color:#2c2c2c;
 float: bottom;
 justify-content: space-around;
-}
-
-.main-content{
-    color: #2c2c2c;
-    height: 100px;
-    width: 100px
-}
-
-h1{
-    font-size: 80px;
-    text-align: center;
-    color: #2c2c2c;
-}
-
-h2{
-    font-size: 20px;
-    text-align: center;
-    color: #2c2c2c; 
-}
-
-p{
-    font-size: 30px;
-    text-align: center;
-    color: #2c2c2c;
-}
-
-header{
-    color:#2c2c2c;
+color: #fffafd;
+font-family: 'Bellota Text', sans-serif;
 }
 
 body{
-    background-color: #fffafd;
+    background-color: #2c2c2c;
 }
+
 
 
 

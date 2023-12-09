@@ -1,0 +1,70 @@
+*{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+align-items: center;
+display: flex;
+color:#2c2c2c;
+float: bottom;
+justify-content: space-around;
+}
+
+.footnav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10rem 1rem 1rem 0;
+    justify-items: space-evenly;
+}
+
+.container{
+    min-height: 100%;
+}
+
+
+.main-content{
+    color: #2c2c2c;
+    height: 100px;
+    width: 100px
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    color: #2c2c2c;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+    color: #2c2c2c; 
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+p{
+    font-size: 30px;
+    text-align: center;
+    color: #2c2c2c;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+header{
+    color:#2c2c2c;
+}
+
+html{
+    background-image: url(Images/pexels-aleksandar-pasaric-325185.jpg);
+    background-size: cover;
+    background-repeat: none;
+    position: relative;
+}
+
+
+
+
