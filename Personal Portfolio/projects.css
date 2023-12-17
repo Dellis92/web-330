@@ -1,3 +1,7 @@
+*{
+    font-family: 'Bellota Text', sans-serif;
+}
+
 body{
     background-color: #fffafd;
 }
@@ -40,4 +44,10 @@ header{
 
 h1{
     text-align: center;
+}
+
+<my-footer></my-footer>{
+    height: 0vh;
+    float: bottom;
+    display: flex;
 }

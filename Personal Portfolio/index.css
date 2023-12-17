@@ -1,5 +1,5 @@
 *{
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Bellota Text', sans-serif;
 }
 
 nav{
@@ -10,7 +10,7 @@ nav{
 footer{
 align-items: center;
 display: flex;
-color:#2c2c2c;
+color:#fffafd;
 float: bottom;
 justify-content: space-around;
 }
@@ -36,35 +36,44 @@ justify-content: space-around;
 h1{
     font-size: 80px;
     text-align: center;
-    color: #2c2c2c;
-    font-family: 'Libre Franklin', sans-serif;
+    color: #fffafd;
+    font-family: 'Bellota Text', sans-serif;
 }
 
 h2{
     font-size: 20px;
     text-align: center;
-    color: #2c2c2c; 
-    font-family: 'Libre Franklin', sans-serif;
+    color: #fffafd; 
+    font-family: 'Bellota Text', sans-serif;
 }
 
 p{
     font-size: 30px;
     text-align: center;
-    color: #2c2c2c;
-    font-family: 'Libre Franklin', sans-serif;
+    color: #fffafd;
+    font-family: 'Bellota Text', sans-serif;
 }
 
 header{
-    color:#2c2c2c;
+    color:#fffafd;
 }
 
 html{
-    background-image: url(Images/pexels-aleksandar-pasaric-325185.jpg);
+    background-image: url(Images/dino-reichmuth-kk3W5-0b6e0-unsplash.jpg);
     background-size: cover;
     background-repeat: none;
     position: relative;
 }
 
-
-
+my-footer{
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    bottom: 0;
+    z-index: 100;
+    text-decoration: none;
+    width: 100%;
+    color:#fffafd;
+}
 
