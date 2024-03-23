@@ -2,13 +2,14 @@ class MyHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <nav id="nav">
-            <a href="indexportfolio.html">Home</a>
+            <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="resume.html">Resume</a>
             <a href="projects.html">Projects</a>
             <a href="bucketlist.html">Bucket List</a>
             <a href="database.html">Database Diagrams</a>
             <a href="api.html">API Unit Tests</a>
+            <a href="devops.html">DevOps</a>
         </nav>
         `
     }
